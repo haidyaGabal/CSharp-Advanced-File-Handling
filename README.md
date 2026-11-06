@@ -24,6 +24,11 @@ A practical learning repository focused on understanding and implementing file h
 - Use interfaces to make storage implementations more flexible.
 
 
+## Architecture Diagram
+
+The following diagram illustrates the application's overall architecture and the interaction between its main components, from user input to file system operations.
+
+```mermaid
 flowchart TD
     A["Program.cs<br/>Application Entry Point"] --> B["Main Menu"]
     B --> C{"User Selection"}
