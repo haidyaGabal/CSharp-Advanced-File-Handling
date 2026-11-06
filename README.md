@@ -22,3 +22,23 @@ A practical learning repository focused on understanding and implementing file h
 - Apply OOP principles to organize and maintain code.
 - Understand JSON serialization and deserialization.
 - Use interfaces to make storage implementations more flexible.
+
+
+flowchart TD
+    A["Program.cs<br/>Application Entry Point"] --> B["Main Menu"]
+    B --> C{"User Selection"}
+
+    C --> D["Directory Operations"]
+    C --> E["File Operations"]
+    C --> F["Simple File Explorer"]
+
+    D --> G["Directory / DirectoryInfo"]
+    E --> H["File / FileInfo"]
+    F --> G
+    F --> H
+
+    G --> I["File System"]
+    H --> I
+
+    I --> J["Files and Directories<br/>on Disk"]
+
